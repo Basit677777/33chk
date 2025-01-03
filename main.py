@@ -9,8 +9,8 @@ from telebot import *
 from GATEAU import Tele
 from colorama import Fore
 sto = {"stop":False}
-token = "7904693827:AAFB18UQJQG0rgP-QMP5r_im5DygveoTIDk" 
-id =  6784844047
+token = "7312219596:AAFkM0xEizkhp9OwKwydVbnOPo7vspEWigg" 
+id =  935023786
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["stop"])
 def start(message):
