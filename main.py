@@ -178,7 +178,7 @@ If your rights are changed, the bot will be disconnected from you and your money
                    bad +=1
                    print(Fore.YELLOW+cc+"->"+Fore.RED+last)
        if sto["stop"] == False:
-           bot.reply_to(message,'The entire combo has been checked)
+           bot.reply_to(message,'The entire combo has been checked')
  else:
      bot.reply_to(message,'THE BOT IS PREMIUM CALL ME \n @IGFIG')
 keep_alive()
